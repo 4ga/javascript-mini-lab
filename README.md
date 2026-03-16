@@ -1,0 +1,25 @@
+# Project: JavaScript Mini Lab
+
+Objective: learn javascript basics by building three mini applications.
+
+## Counter
+
+### Where will the number appear in HTML?
+
+- It will appear in a span or p tag
+
+### Which buttons change it?
+
+- increase, decrease and reset buttons
+
+### Where will the current value live in JavaScript?
+
+- The current value will be stored in a variable.
+
+### How will the page update after each click
+
+- DOM updated with textContent
+
+## Character Counter
+
+## Random Encouragement Generator
