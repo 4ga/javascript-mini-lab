@@ -113,6 +113,12 @@ textarea {
   min-height: 1.5rem;
 }
 
+p#encouragement-message {
+  margin-top: 1rem;
+  font-weight: bold;
+  border-radius: 8px;
+}
+
 #count-display {
   font-size: 2rem;
   font-weight: bold;
