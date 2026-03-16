@@ -39,3 +39,20 @@ Objective: learn javascript basics by building three mini applications.
 - Yes, use a simple 100-character limit
 
 ## Random Encouragement Generator
+
+### Where will the messages live?
+
+- The messages will live in an array
+
+### How do you choose on random item from an array?
+
+- Generate a random number within the bounds of the length of the array.
+  - use Math.floor(Math.random() \* array.length)
+
+### Which element will show the result?
+
+- The result will be displayed in a p element
+
+### What event should trigger the message?
+
+- A button click triggers it.

@@ -92,6 +92,11 @@ button:focus {
   outline-offset: 2px;
 }
 
+label {
+  display: block;
+  font-weight: bold;
+}
+
 textarea {
   width: 100%;
   font: inherit;
@@ -105,6 +110,7 @@ textarea {
 #char-warning {
   margin-top: 0.5rem;
   font-weight: bold;
+  min-height: 1.5rem;
 }
 
 #count-display {
