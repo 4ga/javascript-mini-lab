@@ -22,4 +22,20 @@ Objective: learn javascript basics by building three mini applications.
 
 ## Character Counter
 
+### What input does the user give?
+
+- The input type would be a textarea.
+
+### Which event should update the count?
+
+- Use the input event
+
+### Where should the current count appear?
+
+- Display count in a span or p tag.
+
+### Do you want a max limit warning?
+
+- Yes, use a simple 100-character limit
+
 ## Random Encouragement Generator
