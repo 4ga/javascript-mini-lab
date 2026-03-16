@@ -13,7 +13,6 @@ const encourageBtn = document.getElementById("encourage-btn");
 const encouragementMessage = document.getElementById("encouragement-message");
 const encouragements = [
   "You are stronger than you realize—keep going!",
-  "You are stronger than you realize—keep going!",
   "You've conquered mountains before. This is just a new climb.",
   "No matter what happens, you are strong enough to handle it.",
   "It's okay to take a break when you need one.",
@@ -46,6 +45,8 @@ resetBtn.addEventListener("click", () => {
   count = 0;
   updateCountDisplay();
 });
+
+updateCountDisplay();
 
 messageInput.addEventListener("input", () => {
   const messageLength = messageInput.value.length;
