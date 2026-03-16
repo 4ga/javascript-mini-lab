@@ -26,6 +26,10 @@ header h1 {
   margin-bottom: 0.25rem;
 }
 
+h2 {
+  margin-bottom: 0.75rem;
+}
+
 header p {
   margin-top: 0.25rem;
 }
@@ -77,6 +81,15 @@ button {
   border: none;
   border-radius: 6px;
   cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+button:focus {
+  outline: 2px solid #222;
+  outline-offset: 2px;
 }
 
 #count-display {

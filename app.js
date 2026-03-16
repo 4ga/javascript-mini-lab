@@ -15,7 +15,9 @@ increaseBtn.addEventListener("click", () => {
 });
 
 decreaseBtn.addEventListener("click", () => {
-  count -= 1;
+  if (count > 0) {
+    count -= 1;
+  }
   updateCountDisplay();
 });
 
