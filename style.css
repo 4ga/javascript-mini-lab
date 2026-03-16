@@ -40,10 +40,6 @@ main {
   padding: 0 1rem;
 }
 
-// main > section:first-child {
-//   grid-column: 1 / -1;
-// }
-
 ul,
 ol {
   padding-left: 1.25rem;
@@ -75,9 +71,5 @@ footer {
 @media (max-width: 780px) {
   main {
     grid-template-columns: 1fr;
-  }
-
-  #image-content {
-    flex-direction: column;
   }
 }
